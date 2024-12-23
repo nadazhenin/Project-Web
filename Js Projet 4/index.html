@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire D'inscription utulisateur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Formulaire d'inscription utilisateur</h2>
+    <div id="nam">
+        <form id="fr" >
+            <label  name="pre">Prénom</label>
+            <input  id="pre" name="pre" type="text">
+            <br>
+            <label  name="n">Nom</label>
+            <input  id="n" name="n" type="text">
+            <br>
+            <label name="e">Email</label>
+            <input  id="e" name="e" type="email">
+            <br>
+            <labelname="m">Mot de passe</label>
+            <input  id="m" name="m" type="password">
+            <br>
+            <label  for="c">Confirmer mot de passe</label>
+            <input  id="c" name="c" type="password">
+            <br>
+
+            <fieldset>
+                <legend>Genre</legend>
+
+             <input   id="m"name="m" name="Genre"type="radio">
+             <label for="m" >Masculin</label>
+
+            
+            <input  id="f" name="n" name="Genre" type="radio">
+            <label for="f">feminun</label>
+
+            <br>
+            <label for="country">Pays :</label>
+            <select id="country" name="country">
+                <option value="pays">pays</option>
+                <option value="france">france</option>
+                <option value="belgique">france</option>
+                <option value="suisse">algerie</option>
+            </select>
+            <input value="s'inscrire" type="button" onclick="verif()" id="btn" required>
+            </fieldset>
+        </div>
+            <script src="control.js" async></script>
+
+
+
+
+        </form>
+        
+    </div>
+    
+
+</body>
+</html>
